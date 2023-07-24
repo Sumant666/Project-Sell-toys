@@ -33,7 +33,7 @@ export default function Homepage() {
                 </Fade>
 
 
-                <Fade bottom duration='1000'>
+                <Fade bottom duration='800'>
                     <div className="toys3">
                         <div className="productbutton">
                             <h1>ACTION FIGURES</h1>
@@ -44,7 +44,7 @@ export default function Homepage() {
                 </Fade>
 
 
-                <Fade bottom duration='1000'>
+                <Fade bottom duration='800'>
                     <div className="toys4">
                         <div className="productbutton">
                             <h1 id='Bh'>BOARD GAMES</h1>
@@ -55,7 +55,7 @@ export default function Homepage() {
                 </Fade>
 
 
-                <Fade bottom duration='1000'>
+                <Fade bottom duration='800'>
                     <div className="toys5">
                         <div className="productbutton">
                             <h1 id='Mh'>MUSICAL TOYS</h1>
@@ -66,7 +66,7 @@ export default function Homepage() {
                 </Fade>
 
 
-                <Fade bottom duration='1300'>
+                <Fade bottom duration='800'>
                     <div className="toys6">
                         <div className="productbutton">
                             <h1>PUZZLE'S</h1>
