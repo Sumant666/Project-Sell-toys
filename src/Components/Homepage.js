@@ -1,6 +1,7 @@
 import React from 'react'
 import { Zoom } from 'react-reveal'
 import Fade from 'react-reveal/Fade';
+import PurpleBackground from '../Components/PurpleBackground.mp4'
 
 
 export default function Homepage() {
@@ -13,11 +14,15 @@ export default function Homepage() {
 
                 <div className="titlebody">
 
+                    <div className="overlay2"></div>
+                    <video id='vid2' src={PurpleBackground} autoPlay loop muted />
+
                     <h1 id='H1'>METALLICA</h1>
 
 
                     <Fade bottom duration='1500'>
                         <h1 id='H2'>YOUR FAVOURITE TOY DESTINATION</h1>
+                        <p id='arrow'>&#8681;</p>
                     </Fade>
 
                 </div>
