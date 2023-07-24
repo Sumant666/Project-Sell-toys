@@ -6,6 +6,10 @@ export default function Navbar() {
 
             <div className="navC">
 
+                <video id='vid' autoPlay loop muted>
+                <source type='video/mp4' src='/public/img/NavBackground.mp4' />
+                </video>
+
                 <div className="logo"></div>
 
                 <div className="navmenu">
