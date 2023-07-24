@@ -1,4 +1,5 @@
 import React from 'react'
+import NavBackground from '../Components/NavBackground.mp4'
 
 export default function Navbar() {
     return (
@@ -6,9 +7,8 @@ export default function Navbar() {
 
             <div className="navC">
 
-                <video id='vid' autoPlay loop muted>
-                <source type='video/mp4' src='/public/img/NavBackground.mp4' />
-                </video>
+                <div className="overlay"></div>
+                <video id='vid' src={NavBackground} autoPlay loop muted />
 
                 <div className="logo"></div>
 
