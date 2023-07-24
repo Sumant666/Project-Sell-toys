@@ -9,7 +9,22 @@ export default function Homepage() {
 
             <div className="container">
 
-                <Zoom top duration='1500'>
+
+
+                <div className="titlebody">
+
+                    <h1 id='H1'>METALLICA</h1>
+
+
+                    <Fade bottom duration='1500'>
+                        <h1 id='H2'>YOUR FAVOURITE TOY DESTINATION</h1>
+                    </Fade>
+
+                </div>
+
+
+
+                <Fade bottom duration='1000'>
                     <div className="toys1">
 
                         <div className="productbutton">
@@ -19,7 +34,7 @@ export default function Homepage() {
                         </div>
 
                     </div>
-                </Zoom>
+                </Fade>
 
 
                 <Fade bottom duration='1000'>
@@ -33,7 +48,7 @@ export default function Homepage() {
                 </Fade>
 
 
-                <Fade bottom duration='800'>
+                <Fade bottom duration='1000'>
                     <div className="toys3">
                         <div className="productbutton">
                             <h1>ACTION FIGURES</h1>
@@ -44,7 +59,7 @@ export default function Homepage() {
                 </Fade>
 
 
-                <Fade bottom duration='800'>
+                <Fade bottom duration='1000'>
                     <div className="toys4">
                         <div className="productbutton">
                             <h1 id='Bh'>BOARD GAMES</h1>
@@ -55,7 +70,7 @@ export default function Homepage() {
                 </Fade>
 
 
-                <Fade bottom duration='800'>
+                <Fade bottom duration='1000'>
                     <div className="toys5">
                         <div className="productbutton">
                             <h1 id='Mh'>MUSICAL TOYS</h1>
@@ -66,7 +81,7 @@ export default function Homepage() {
                 </Fade>
 
 
-                <Fade bottom duration='800'>
+                <Fade bottom duration='1000'>
                     <div className="toys6">
                         <div className="productbutton">
                             <h1>PUZZLE'S</h1>

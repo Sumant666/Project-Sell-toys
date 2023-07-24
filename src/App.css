@@ -19,7 +19,7 @@ a {
 /*.................NAVBAR.................*/
 
 
-.navC{
+.navC {
     width: 100%;
     height: 110px;
     display: flex;
@@ -32,7 +32,7 @@ a {
     z-index: 1;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -41,7 +41,7 @@ a {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-#vid{
+#vid {
     position: absolute;
     top: 0;
     left: 0;
@@ -53,7 +53,7 @@ a {
     background-position: center;
 }
 
-.logo{
+.logo {
     width: 18%;
     height: 100%;
     margin-left: 10px;
@@ -64,21 +64,22 @@ a {
     filter: drop-shadow(5px 5px 5px red);
 }
 
-.navmenu{
+.navmenu {
     width: 82%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.uppernav{
+.uppernav {
     width: 100%;
     height: 60px;
     display: flex;
     align-items: center;
     z-index: 10;
 }
-.lowwernav{
+
+.lowwernav {
     z-index: 10;
 }
 
@@ -158,17 +159,19 @@ nav {
     font-size: 14px;
 }
 
-.menu{
+.menu {
     display: flex;
 }
 
 #listmenu {
     padding-left: 50px;
 }
+
 #listmenu1 {
     padding-left: 20px;
 }
-.menu ul li a{
+
+.menu ul li a {
     width: 100%;
     height: 100%;
     padding: 5px;
@@ -176,6 +179,7 @@ nav {
     border: 2px solid white;
     border-radius: 25px;
 }
+
 .menu ul li a:hover {
     background-color: black;
     color: white;
@@ -196,138 +200,186 @@ nav {
     background-color: rgb(0, 0, 0);
 }
 
-.toys1{
+.titlebody {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(71, 14, 169);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#H1 {
+    font-size: 80px;
+    margin-top: 250px;
+    margin-bottom: 400px;
+    color: yellow;
+}
+
+#H2 {
+    width: 90%;
+    height: 90px;
+    border: 5px solid yellowgreen;
+    border-radius: 50px;
+    margin: 5%;
+    font-size: 70px;
+    color: yellowgreen;
+}
+
+
+
+
+.toys1 {
     width: 100%;
     height: 540px;
     background-image: url(/public/img/soft-toy1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 20px;
 }
-.toys2{
+
+.toys2 {
     width: 100%;
     height: 600px;
     background-image: url(/public/img/lego.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 20px;
 }
-.toys3{
+
+.toys3 {
     width: 100%;
     height: 600px;
     background-image: url(/public/img/action-figures1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 20px;
+
 }
-.toys4{
+
+.toys4 {
     width: 100%;
     height: 600px;
     background-image: url(/public/img/board-games.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 20px;
+
 }
-.toys5{
+
+.toys5 {
     width: 100%;
     height: 600px;
     background-image: url(/public/img/musical-toy1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 20px;
+
 }
-.toys6{
+
+.toys6 {
     width: 100%;
     height: 600px;
     background-image: url(/public/img/puzzle.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 20px;
+
 }
 
-.productbutton h1{
+.productbutton h1 {
     margin-top: 20px;
     font-size: 40px;
 }
 
-.productbutton button{
+.productbutton button {
     text-decoration: none;
     background: none;
     border: none;
     font-size: 20px;
     cursor: pointer;
-    background:transparent;
+    background: transparent;
     border: 2px solid black;
     border-radius: 20px;
     padding: 10px;
     margin-top: 410px;
 }
 
-.productbutton button:hover{
+.productbutton button:hover {
     background-color: black;
     color: white;
 }
 
-#Lbtn{
+#Lbtn {
     text-decoration: none;
     background: none;
     border: none;
     font-size: 20px;
     cursor: pointer;
-    background:transparent;
+    background: transparent;
     border: 2px solid black;
     border-radius: 20px;
     padding: 10px;
     margin-top: 470px;
 }
-#Abtn{
+
+#Abtn {
     text-decoration: none;
     background: none;
     border: none;
     font-size: 20px;
     cursor: pointer;
-    background:transparent;
+    background: transparent;
     border: 2px solid black;
     border-radius: 20px;
     padding: 10px;
     margin-top: 480px;
 }
 
-#Bh{
+#Bh {
     margin-top: 40px;
 }
-#Bbtn{
+
+#Bbtn {
     text-decoration: none;
     background: none;
     border: none;
     font-size: 20px;
     cursor: pointer;
-    background:transparent;
+    background: transparent;
     border: 2px solid black;
     border-radius: 20px;
     padding: 10px;
     margin-top: 420px;
 }
-#Mh{
+
+#Mh {
     margin-top: 40px;
 }
-#Mbtn{
+
+#Mbtn {
     text-decoration: none;
     background: none;
     border: none;
     font-size: 20px;
     cursor: pointer;
-    background:transparent;
+    background: transparent;
     border: 2px solid black;
     border-radius: 20px;
     padding: 10px;
     margin-top: 400px;
 }
-#Pbtn{
+
+#Pbtn {
     text-decoration: none;
     background: none;
     border: none;
     font-size: 20px;
     cursor: pointer;
-    background:transparent;
+    background: transparent;
     border: 2px solid black;
     border-radius: 20px;
     padding: 10px;
