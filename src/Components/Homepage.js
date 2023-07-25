@@ -64,17 +64,6 @@ export default function Homepage() {
 
 
                 <Fade bottom duration='1000'>
-                    <div className="toys4">
-                        <div className="productbutton">
-                            <h1 id='Bh'>BOARD GAMES</h1>
-
-                            <button id='Bbtn'>VIEW PRODUCTS</button>
-                        </div>
-                    </div>
-                </Fade>
-
-
-                <Fade bottom duration='1000'>
                     <div className="toys5">
                         <div className="productbutton">
                             <h1 id='Mh'>MUSICAL TOYS</h1>
