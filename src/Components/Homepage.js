@@ -1,5 +1,4 @@
 import React from 'react'
-import { Zoom } from 'react-reveal'
 import Fade from 'react-reveal/Fade';
 import PurpleBackground from '../Components/PurpleBackground.mp4'
 

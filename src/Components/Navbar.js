@@ -41,8 +41,8 @@ export default function Navbar() {
                                         <li id="listmenu"><a href="/">NEW ARRIVALS</a></li>
                                         <li id="listmenu"><a href="/">SOFT TOYS</a></li>
                                         <li id="listmenu"><a href="/">MUSICAL TOYS</a></li>
-                                        <li id="listmenu"><a href="/">BOARD GAMES</a></li>
-                                        <li id="listmenu"><a href="/">ACTION FIGURES</a></li>
+                                        <li id="listmenu"><a href="/">ABOUT US</a></li>
+                                        <li id="listmenu"><a href="/">CONTACT US</a></li>
                                     </ul>
                                 </div>
                             </nav>
