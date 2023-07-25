@@ -38,8 +38,8 @@ export default function Navbar() {
                                     <ul>
                                         <li id="listmenu1"><a href="/">HOME</a></li>
                                         <li id="listmenu"><a href="/">BESTSELLER</a></li>
-                                        <li id="listmenu"><a href="/">NEW ARRIVALS</a></li>
                                         <li id="listmenu"><a href="/">SOFT TOYS</a></li>
+                                        <li id="listmenu"><a href="/">LEGO's</a></li>
                                         <li id="listmenu"><a href="/">MUSICAL TOYS</a></li>
                                         <li id="listmenu"><a href="/">ABOUT US</a></li>
                                         <li id="listmenu"><a href="/">CONTACT US</a></li>
