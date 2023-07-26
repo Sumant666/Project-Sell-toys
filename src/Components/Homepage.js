@@ -34,6 +34,7 @@ export default function Homepage() {
                         <div className="productbutton">
                             <h1>SOFT TOYS</h1>
 
+                            
                             <button>VIEW PRODUCTS</button>
                         </div>
 

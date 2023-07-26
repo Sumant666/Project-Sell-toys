@@ -7,6 +7,7 @@ export default function Soft() {
     <>
 
       <div className="Pcontainer">
+
         <div className="overlay2"></div>
         <video id='vid2' src={PurpleBackground} autoPlay loop muted />
 
