@@ -308,7 +308,7 @@ h2 {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-
+    z-index: 1;
 }
 
 #vid2 {
@@ -412,7 +412,7 @@ h2 {
     font-size: 40px;
 }
 
-.productbutton button {
+.productbutton button{
     text-decoration: none;
     background: none;
     border: none;
@@ -426,8 +426,7 @@ h2 {
 }
 
 .productbutton button:hover {
-    background-color: black;
-    color: white;
+    filter: drop-shadow(2px 2px 2px black);
 }
 
 #Lbtn {
@@ -490,12 +489,319 @@ h2 {
 
 .Pcontainer {
     width: 100%;
-    height: 700px;
-    color: white;
+    height: 2000px;
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     top: 0;
     overflow: hidden;
     background-blend-mode: overlay;
     z-index: 1;
+}
+
+.Pbody {
+    width: 80%;
+    height: fit-content;
+    margin: 0 10% 50px 10%;
+    padding: 50px 0 50px 0;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.Prows {
+    width: 100%;
+    height: 500px;
+    margin: 20px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.Pcoll {
+    width: 40%;
+    height: 500px;
+    margin: 0 5% 0 10%;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+.Pcolr {
+    width: 40%;
+    height: 500px;
+    margin: 0 10% 0 5%;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+.SP1img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Soft/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.SP2img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Soft/2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.SP3img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Soft/3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.SP4img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Soft/4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.SP5img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Soft/5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.SP6img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Soft/6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.MP1img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Musical/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.MP2img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Musical/2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.MP3img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Musical/3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.MP4img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Musical/4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.MP5img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Musical/5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.MP6img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Musical/6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.LP1img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Lego/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.LP2img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Lego/2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.LP3img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Lego/3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.LP4img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Lego/4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.LP5img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Lego/5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.LP6img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Lego/6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.AP1img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Action/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.AP2img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Action/2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.AP3img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Action/3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.AP4img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Action/4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.AP5img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Action/5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.AP6img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Action/6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.PP1img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Puzzle/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.PP2img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Puzzle/2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.PP3img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Puzzle/3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.PP4img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/src/Product-page/img/Puzzle/4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.SP1info{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+
+#result1{
+    margin-left: 120px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+#result{
+    margin-left: 120px;
+}
+#price{
+    margin-top: 20px;
+    font-size: 30px;
+    display: flex;
+}
+#sup{
+    font-weight: 100;
+    font-size: 20px;
+}
+#oldprice{
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: 1px line-through;
+}
+#mrp{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    display: flex;
+}
+#free{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 100;
 }

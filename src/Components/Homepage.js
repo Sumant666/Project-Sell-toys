@@ -1,6 +1,7 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 import PurpleBackground from '../Components/PurpleBackground.mp4'
+import { Link } from "react-router-dom";
 
 
 export default function Homepage() {
@@ -35,7 +36,7 @@ export default function Homepage() {
                             <h1>SOFT TOYS</h1>
 
                             
-                            <button>VIEW PRODUCTS</button>
+                            <button><Link to="/Soft">VIEW PRODUCT</Link></button>
                         </div>
 
                     </div>
@@ -47,7 +48,7 @@ export default function Homepage() {
                         <div className="productbutton">
                             <h1>LEGO'S</h1>
 
-                            <button id="Lbtn">VIEW PRODUCTS</button>
+                            <button id="Lbtn"><Link to="/Lego">VIEW PRODUCT</Link></button>
                         </div>
                     </div>
                 </Fade>
@@ -58,7 +59,7 @@ export default function Homepage() {
                         <div className="productbutton">
                             <h1>ACTION FIGURES</h1>
 
-                            <button id='Abtn'>VIEW PRODUCTS</button>
+                            <button id='Abtn'><Link to="/Action">VIEW PRODUCT</Link></button>
                         </div>
                     </div>
                 </Fade>
@@ -69,7 +70,7 @@ export default function Homepage() {
                         <div className="productbutton">
                             <h1 id='Mh'>MUSICAL TOYS</h1>
 
-                            <button id='Mbtn'>VIEW PRODUCTS</button>
+                            <button id='Mbtn'><Link to="/Musical">VIEW PRODUCT</Link></button>
                         </div>
                     </div>
                 </Fade>
@@ -80,7 +81,7 @@ export default function Homepage() {
                         <div className="productbutton">
                             <h1>PUZZLE'S</h1>
 
-                            <button id='Pbtn'>VIEW PRODUCTS</button>
+                            <button id='Pbtn'><Link to="/Puzzle">VIEW PRODUCT</Link></button>
                         </div>
                     </div>
                 </Fade>

@@ -10,6 +10,8 @@ import Musical from './Product-page/Musical';
 import Lego from './Product-page/Lego';
 import Soft from './Product-page/Soft';
 import Contact from './Product-page/Contact';
+import Puzzle from './Product-page/Puzzle';
+import Action from './Product-page/Action';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path='/Lego' element={<Lego/>}/>
           <Route path='/Soft' element={<Soft/>}/>
           <Route path='/Contact' element={<Contact/>}/>
+          <Route path='/Puzzle' element={<Puzzle/>}/>
+          <Route path='/Action' element={<Action/>}/>
 
         </Routes>
       </BrowserRouter>
