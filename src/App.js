@@ -12,6 +12,7 @@ import Soft from './Product-page/Soft';
 import Contact from './Product-page/Contact';
 import Puzzle from './Product-page/Puzzle';
 import Action from './Product-page/Action';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
           <Route path='/Action' element={<Action/>}/>
 
         </Routes>
+
+        <Footer/>
       </BrowserRouter>
 
     </>

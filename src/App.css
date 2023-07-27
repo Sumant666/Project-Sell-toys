@@ -62,6 +62,7 @@ a {
     background-size: cover;
     background-position: center;
     filter: drop-shadow(5px 5px 5px red);
+    z-index: 15;
 }
 
 .navmenu {
@@ -187,6 +188,197 @@ nav {
     filter: drop-shadow(2.5px 2.5px 2.5px red);
 }
 
+/*................FOOTER................*/
+* {
+    font-family: Open Sans;
+}
+FontAwesomeIcon{
+}
+.footer-distributed .footer-left div.logo {
+    width: 240px;
+    height: 100px;
+    margin-left: 10px;
+    background-image: url(/public/img/LOGO2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
+    z-index: 25;
+}
+
+.footer-distributed {
+    background: #666;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 45px 45px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 10px 0 12px 10px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: lightseagreen;
+    text-decoration: none;
+
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+}
+
+
 /*................FORM................*/
 
 div.main {
@@ -299,6 +491,7 @@ h2 {
     overflow: hidden;
     background-blend-mode: overlay;
     z-index: 1;
+    background-attachment: fixed;
 }
 
 .overlay2 {
@@ -309,6 +502,7 @@ h2 {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
+    background-attachment: fixed;
 }
 
 #vid2 {
@@ -321,7 +515,7 @@ h2 {
     pointer-events: none;
     z-index: -1;
     background-position: center;
-
+    background-attachment: fixed;
 }
 
 #H1 {
@@ -412,7 +606,7 @@ h2 {
     font-size: 40px;
 }
 
-.productbutton button{
+.productbutton button {
     text-decoration: none;
     background: none;
     border: none;
@@ -524,6 +718,7 @@ h2 {
     margin: 0 5% 0 10%;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
 }
+
 .Pcolr {
     width: 40%;
     height: 500px;
@@ -531,7 +726,7 @@ h2 {
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
 }
 
-.SP1img{
+.SP1img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Soft/1.jpg);
@@ -539,7 +734,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.SP2img{
+
+.SP2img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Soft/2.jpg);
@@ -547,7 +743,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.SP3img{
+
+.SP3img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Soft/3.jpg);
@@ -555,7 +752,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.SP4img{
+
+.SP4img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Soft/4.jpg);
@@ -563,7 +761,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.SP5img{
+
+.SP5img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Soft/5.jpg);
@@ -571,7 +770,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.SP6img{
+
+.SP6img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Soft/6.jpg);
@@ -579,7 +779,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.MP1img{
+
+.MP1img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Musical/1.jpg);
@@ -587,7 +788,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.MP2img{
+
+.MP2img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Musical/2.jpg);
@@ -595,7 +797,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.MP3img{
+
+.MP3img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Musical/3.jpg);
@@ -603,7 +806,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.MP4img{
+
+.MP4img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Musical/4.jpg);
@@ -611,7 +815,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.MP5img{
+
+.MP5img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Musical/5.jpg);
@@ -619,7 +824,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.MP6img{
+
+.MP6img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Musical/6.jpg);
@@ -627,7 +833,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.LP1img{
+
+.LP1img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Lego/1.jpg);
@@ -635,7 +842,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.LP2img{
+
+.LP2img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Lego/2.jpg);
@@ -643,7 +851,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.LP3img{
+
+.LP3img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Lego/3.jpg);
@@ -651,7 +860,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.LP4img{
+
+.LP4img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Lego/4.jpg);
@@ -659,7 +869,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.LP5img{
+
+.LP5img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Lego/5.jpg);
@@ -667,7 +878,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.LP6img{
+
+.LP6img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Lego/6.jpg);
@@ -675,7 +887,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.AP1img{
+
+.AP1img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Action/1.jpg);
@@ -683,7 +896,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.AP2img{
+
+.AP2img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Action/2.jpg);
@@ -691,7 +905,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.AP3img{
+
+.AP3img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Action/3.jpg);
@@ -699,7 +914,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.AP4img{
+
+.AP4img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Action/4.jpg);
@@ -707,7 +923,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.AP5img{
+
+.AP5img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Action/5.jpg);
@@ -715,7 +932,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.AP6img{
+
+.AP6img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Action/6.jpg);
@@ -723,7 +941,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.PP1img{
+
+.PP1img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Puzzle/1.jpg);
@@ -731,7 +950,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.PP2img{
+
+.PP2img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Puzzle/2.jpg);
@@ -739,7 +959,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.PP3img{
+
+.PP3img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Puzzle/3.jpg);
@@ -747,7 +968,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.PP4img{
+
+.PP4img {
     width: 100%;
     height: 60%;
     background-image: url(/src/Product-page/img/Puzzle/4.jpg);
@@ -760,7 +982,7 @@ h2 {
 
 
 
-.SP1info{
+.SP1info {
     margin-top: 20px;
     margin-left: 20px;
     font-size: 20px;
@@ -769,38 +991,44 @@ h2 {
 
 
 
-#result1{
+#result1 {
     margin-left: 120px;
     font-size: 25px;
     font-weight: 800;
     margin-bottom: 10px;
 }
-#result{
+
+#result {
     margin-left: 120px;
 }
-#price{
+
+#price {
     margin-top: 20px;
     font-size: 30px;
     display: flex;
 }
-#sup{
+
+#sup {
     font-weight: 100;
     font-size: 20px;
 }
-#oldprice{
+
+#oldprice {
     margin-left: 5px;
     font-size: 16px;
     font-weight: 100;
     text-decoration: 1px line-through;
 }
-#mrp{
+
+#mrp {
     margin-top: 10px;
     margin-left: 10px;
     font-size: 16px;
     font-weight: 200;
     display: flex;
 }
-#free{
+
+#free {
     margin-left: 5px;
     font-size: 14px;
     font-weight: 100;
